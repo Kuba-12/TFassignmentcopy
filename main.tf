@@ -1,12 +1,11 @@
-# provider.tf
+i# provider.tf
 provider "aws" {
   region = "us-west-2"
 }
 
-#edit code
 # ec2.tf
 resource "aws_instance" "app" {
-  ami           = "ami-0c55b159cbfafe1f0"  # Update with your preferred AMI
+  ami           = "ami-0a38c1c38a15fed74"  # Update with your preferred AMI
   instance_type = "t2.micro"
 
   tags = {
