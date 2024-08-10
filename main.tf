@@ -3,6 +3,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
+#edit code
 # ec2.tf
 resource "aws_instance" "app" {
   ami           = "ami-0c55b159cbfafe1f0"  # Update with your preferred AMI
